@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="modernizr-custom.js"></script>
+    <style>
+        .no-borderradius #button1{
+            background:url("rounded_button.png")
+        }
+        .borderradius #button1{
+            border:1px solid;
+            border-radius: 10px;
+            border-color: #ff4b4b;
+            background-color: #ff4b4b;
+        }
+        #button1{
+           
+            width:220px;
+            height:60px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <script>
+        if(Modernizr.video){
+            alert("HTML5 Video Supported")
+        }
+        else{
+            alert("Video not Supported")
+        }
+    </script> -->
+
+    <div id="button1"></div>
+</body>
+</html>
